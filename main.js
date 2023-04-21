@@ -98,12 +98,12 @@ const form = document.querySelector("form")
 
 btna.addEventListener("click", changCol)
 function changCol(e){
-    document.getElementById("main").style.backgroundImage = "url('https://source.unsplash.com/random/900×700/?color')"
+    document.getElementById("main").style.backgroundColor = "#bcf5b8"
 }
 
 btnb.addEventListener("click", changColb)
 function changColb(e){
-    document.getElementById("out").style.backgroundImage = "url('https://source.unsplash.com/random/900×700/?color')"
+    document.getElementById("out").style.backgroundColor = "#004c4c"
 }
 
 form.addEventListener('submit', runEvent)
